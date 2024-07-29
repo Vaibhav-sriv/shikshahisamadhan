@@ -1,0 +1,72 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+#toolbar {
+    background-color: #012749;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    margin-left: 2%;
+}
+
+.register {
+    margin-right: 4%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toolbar2 {
+    color: #606060;
+    font-size: 15px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toolbar3 {
+    background-color: #012749;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+#section1 {
+    background-image: url(https://shikshahisamadhan.com/wp-content/uploads/2024/06/hero_area_image.png);
+    background-position: center center;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info {
+    width: 50%;
+}
+
+.info h1 {
+    font-size: 56px;
+}
+.info h3 {
+    color: #FF0000;
+}
+.info p {
+    color: #333333;
+    font-size: 15px;
+}
+
+#section2 {
+    background-color: #f52828;
+    height: 20%;
+}

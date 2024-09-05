@@ -1,7 +1,6 @@
-const express= require ("express")
+const express= require("express")
 const cors =require("cors");
 const bcrypt = require('bcrypt');
-
 require("./db/conn");
 const StudentModel=require("./models/Student");
 const Course= require("./models/course");
